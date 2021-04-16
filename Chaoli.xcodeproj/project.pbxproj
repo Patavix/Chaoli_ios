@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73598D9F382F93333AA8FA38 /* Pods_Chaoli.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31124A1BC0246CC1CB95EFC0 /* Pods_Chaoli.framework */; };
 		AE57AE2C2629CC4A00B46E63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE57AE2B2629CC4A00B46E63 /* AppDelegate.swift */; };
 		AE57AE2E2629CC4A00B46E63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE57AE2D2629CC4A00B46E63 /* SceneDelegate.swift */; };
 		AE57AE302629CC4A00B46E63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE57AE2F2629CC4A00B46E63 /* ViewController.swift */; };
@@ -14,9 +15,27 @@
 		AE57AE362629CC4A00B46E63 /* Chaoli.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE57AE342629CC4A00B46E63 /* Chaoli.xcdatamodeld */; };
 		AE57AE382629CC4C00B46E63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE57AE372629CC4C00B46E63 /* Assets.xcassets */; };
 		AE57AE3B2629CC4C00B46E63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE57AE392629CC4C00B46E63 /* LaunchScreen.storyboard */; };
+		AE57AE442629CCF500B46E63 /* TabBarC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE57AE432629CCF500B46E63 /* TabBarC.swift */; };
+		AE57AE472629CE3200B46E63 /* MathVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE57AE462629CE3200B46E63 /* MathVC.swift */; };
+		AE57AE4A2629D18800B46E63 /* PhyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE57AE492629D18800B46E63 /* PhyVC.swift */; };
+		AE57AE4D2629D19600B46E63 /* ChemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE57AE4C2629D19600B46E63 /* ChemVC.swift */; };
+		AE57AE502629D1A200B46E63 /* BioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE57AE4F2629D1A200B46E63 /* BioVC.swift */; };
+		AE57AE532629D1B300B46E63 /* ITVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE57AE522629D1B300B46E63 /* ITVC.swift */; };
+		AE57AE562629D1C700B46E63 /* CorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE57AE552629D1C700B46E63 /* CorVC.swift */; };
+		AE57AE592629D1D400B46E63 /* OthersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE57AE582629D1D400B46E63 /* OthersVC.swift */; };
+		AE57AE5C2629D1F700B46E63 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE57AE5B2629D1F700B46E63 /* HomeVC.swift */; };
+		AE57AE682629DB3300B46E63 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE57AE672629DB3300B46E63 /* Constants.swift */; };
+		AE57AE722629DEC300B46E63 /* PostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE57AE712629DEC300B46E63 /* PostVC.swift */; };
+		AE57AE752629DF4D00B46E63 /* NoteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE57AE742629DF4D00B46E63 /* NoteVC.swift */; };
+		AE57AE782629DF7A00B46E63 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE57AE772629DF7A00B46E63 /* PhotoCell.swift */; };
+		AE57AE7B2629DF9800B46E63 /* PhotoFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE57AE7A2629DF9800B46E63 /* PhotoFooter.swift */; };
+		AE57AE8B2629ED1600B46E63 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE57AE8A2629ED1600B46E63 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B2E677B527F34F37FDCF764 /* Pods-Chaoli.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chaoli.debug.xcconfig"; path = "Target Support Files/Pods-Chaoli/Pods-Chaoli.debug.xcconfig"; sourceTree = "<group>"; };
+		31124A1BC0246CC1CB95EFC0 /* Pods_Chaoli.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chaoli.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6581142F9EAE98F164CEE68A /* Pods-Chaoli.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chaoli.release.xcconfig"; path = "Target Support Files/Pods-Chaoli/Pods-Chaoli.release.xcconfig"; sourceTree = "<group>"; };
 		AE57AE282629CC4A00B46E63 /* Chaoli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chaoli.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE57AE2B2629CC4A00B46E63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE57AE2D2629CC4A00B46E63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +45,22 @@
 		AE57AE372629CC4C00B46E63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE57AE3A2629CC4C00B46E63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE57AE3C2629CC4C00B46E63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE57AE432629CCF500B46E63 /* TabBarC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarC.swift; sourceTree = "<group>"; };
+		AE57AE462629CE3200B46E63 /* MathVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathVC.swift; sourceTree = "<group>"; };
+		AE57AE492629D18800B46E63 /* PhyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhyVC.swift; sourceTree = "<group>"; };
+		AE57AE4C2629D19600B46E63 /* ChemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChemVC.swift; sourceTree = "<group>"; };
+		AE57AE4F2629D1A200B46E63 /* BioVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BioVC.swift; sourceTree = "<group>"; };
+		AE57AE522629D1B300B46E63 /* ITVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITVC.swift; sourceTree = "<group>"; };
+		AE57AE552629D1C700B46E63 /* CorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorVC.swift; sourceTree = "<group>"; };
+		AE57AE582629D1D400B46E63 /* OthersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OthersVC.swift; sourceTree = "<group>"; };
+		AE57AE5B2629D1F700B46E63 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		AE57AE672629DB3300B46E63 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AE57AE712629DEC300B46E63 /* PostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostVC.swift; sourceTree = "<group>"; };
+		AE57AE742629DF4D00B46E63 /* NoteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteVC.swift; sourceTree = "<group>"; };
+		AE57AE772629DF7A00B46E63 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		AE57AE7A2629DF9800B46E63 /* PhotoFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoFooter.swift; sourceTree = "<group>"; };
+		AE57AE882629EC8200B46E63 /* Chaoli_Bridging_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Chaoli_Bridging_Header.h; sourceTree = "<group>"; };
+		AE57AE8A2629ED1600B46E63 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73598D9F382F93333AA8FA38 /* Pods_Chaoli.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +80,8 @@
 			children = (
 				AE57AE2A2629CC4A00B46E63 /* Chaoli */,
 				AE57AE292629CC4A00B46E63 /* Products */,
+				CE0F48126BEE7885E53A5E13 /* Pods */,
+				F72FC51ADE37A0038184405C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,12 +100,61 @@
 				AE57AE2D2629CC4A00B46E63 /* SceneDelegate.swift */,
 				AE57AE2F2629CC4A00B46E63 /* ViewController.swift */,
 				AE57AE312629CC4A00B46E63 /* Main.storyboard */,
+				AE57AE7D2629DFBF00B46E63 /* Post */,
+				AE57AE5E2629D20500B46E63 /* Home */,
+				AE57AE432629CCF500B46E63 /* TabBarC.swift */,
 				AE57AE372629CC4C00B46E63 /* Assets.xcassets */,
 				AE57AE392629CC4C00B46E63 /* LaunchScreen.storyboard */,
 				AE57AE3C2629CC4C00B46E63 /* Info.plist */,
 				AE57AE342629CC4A00B46E63 /* Chaoli.xcdatamodeld */,
+				AE57AE672629DB3300B46E63 /* Constants.swift */,
+				AE57AE882629EC8200B46E63 /* Chaoli_Bridging_Header.h */,
+				AE57AE8A2629ED1600B46E63 /* Extensions.swift */,
 			);
 			path = Chaoli;
+			sourceTree = "<group>";
+		};
+		AE57AE5E2629D20500B46E63 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				AE57AE462629CE3200B46E63 /* MathVC.swift */,
+				AE57AE492629D18800B46E63 /* PhyVC.swift */,
+				AE57AE4C2629D19600B46E63 /* ChemVC.swift */,
+				AE57AE4F2629D1A200B46E63 /* BioVC.swift */,
+				AE57AE522629D1B300B46E63 /* ITVC.swift */,
+				AE57AE552629D1C700B46E63 /* CorVC.swift */,
+				AE57AE582629D1D400B46E63 /* OthersVC.swift */,
+				AE57AE5B2629D1F700B46E63 /* HomeVC.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		AE57AE7D2629DFBF00B46E63 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				AE57AE712629DEC300B46E63 /* PostVC.swift */,
+				AE57AE742629DF4D00B46E63 /* NoteVC.swift */,
+				AE57AE772629DF7A00B46E63 /* PhotoCell.swift */,
+				AE57AE7A2629DF9800B46E63 /* PhotoFooter.swift */,
+			);
+			name = Post;
+			sourceTree = "<group>";
+		};
+		CE0F48126BEE7885E53A5E13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B2E677B527F34F37FDCF764 /* Pods-Chaoli.debug.xcconfig */,
+				6581142F9EAE98F164CEE68A /* Pods-Chaoli.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F72FC51ADE37A0038184405C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31124A1BC0246CC1CB95EFC0 /* Pods_Chaoli.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +164,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE57AE3F2629CC4C00B46E63 /* Build configuration list for PBXNativeTarget "Chaoli" */;
 			buildPhases = (
+				CD666D01CCA494156DF8171C /* [CP] Check Pods Manifest.lock */,
 				AE57AE242629CC4A00B46E63 /* Sources */,
 				AE57AE252629CC4A00B46E63 /* Frameworks */,
 				AE57AE262629CC4A00B46E63 /* Resources */,
+				B3D0EDDA79BE44CF432AA605 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,13 +224,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B3D0EDDA79BE44CF432AA605 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chaoli/Pods-Chaoli-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Chaoli/Pods-Chaoli-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Chaoli/Pods-Chaoli-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD666D01CCA494156DF8171C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Chaoli-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AE57AE242629CC4A00B46E63 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AE57AE302629CC4A00B46E63 /* ViewController.swift in Sources */,
+				AE57AE502629D1A200B46E63 /* BioVC.swift in Sources */,
+				AE57AE4A2629D18800B46E63 /* PhyVC.swift in Sources */,
 				AE57AE2C2629CC4A00B46E63 /* AppDelegate.swift in Sources */,
+				AE57AE5C2629D1F700B46E63 /* HomeVC.swift in Sources */,
+				AE57AE782629DF7A00B46E63 /* PhotoCell.swift in Sources */,
+				AE57AE472629CE3200B46E63 /* MathVC.swift in Sources */,
+				AE57AE8B2629ED1600B46E63 /* Extensions.swift in Sources */,
+				AE57AE752629DF4D00B46E63 /* NoteVC.swift in Sources */,
+				AE57AE532629D1B300B46E63 /* ITVC.swift in Sources */,
+				AE57AE562629D1C700B46E63 /* CorVC.swift in Sources */,
+				AE57AE592629D1D400B46E63 /* OthersVC.swift in Sources */,
+				AE57AE7B2629DF9800B46E63 /* PhotoFooter.swift in Sources */,
+				AE57AE722629DEC300B46E63 /* PostVC.swift in Sources */,
+				AE57AE442629CCF500B46E63 /* TabBarC.swift in Sources */,
+				AE57AE4D2629D19600B46E63 /* ChemVC.swift in Sources */,
+				AE57AE682629DB3300B46E63 /* Constants.swift in Sources */,
 				AE57AE2E2629CC4A00B46E63 /* SceneDelegate.swift in Sources */,
 				AE57AE362629CC4A00B46E63 /* Chaoli.xcdatamodeld in Sources */,
 			);
@@ -287,39 +433,45 @@
 		};
 		AE57AE402629CC4C00B46E63 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B2E677B527F34F37FDCF764 /* Pods-Chaoli.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LLJ5J27DDR;
 				INFOPLIST_FILE = Chaoli/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = pantao.Chaoli;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/pantao/Downloads/Chaoli/Chaoli/Chaoli_Bridging_Header.h;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		AE57AE412629CC4C00B46E63 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6581142F9EAE98F164CEE68A /* Pods-Chaoli.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LLJ5J27DDR;
 				INFOPLIST_FILE = Chaoli/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = pantao.Chaoli;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/pantao/Downloads/Chaoli/Chaoli/Chaoli_Bridging_Header.h;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
