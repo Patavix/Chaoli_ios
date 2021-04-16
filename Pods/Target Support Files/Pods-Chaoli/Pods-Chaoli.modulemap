@@ -1,0 +1,6 @@
+framework module Pods_Chaoli {
+  umbrella header "Pods-Chaoli-umbrella.h"
+
+  export *
+  module * { export * }
+}
